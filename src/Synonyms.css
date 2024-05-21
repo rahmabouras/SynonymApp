@@ -1,0 +1,43 @@
+.Synonyms {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Synonyms ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Synonyms li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .pagination button:hover {
+    background: #0056b3;
+  }
+  
+  .pagination button.active {
+    background: #0056b3;
+  }
+  
